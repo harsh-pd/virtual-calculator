@@ -40,7 +40,7 @@ void main()
 	printf("\n\n\t\t\t0");
 	while (true)
 	{
-		key = getchar();
+		key = press(cap);
 		if ((SecondNumPressed == true) && ((key != '=') && (((key - '0')<0) || ((key - '0')>9))))
 		{
 			//cout << SecondNumPressed << " " << key << " " << key - '0' << "\n";
